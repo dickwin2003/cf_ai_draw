@@ -4,8 +4,7 @@
   "description": "AI Drawing Application based on Cloudflare Workers",
   "main": "worker.js",
   "scripts": {
-    "build": "echo \"No build step required\"",
-    "pages:deploy": "wrangler pages deploy .",
+    "build": "npm install && echo \"No build step required\"",
     "dev": "wrangler dev",
     "deploy": "wrangler deploy"
   },

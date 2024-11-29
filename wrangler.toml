@@ -1,21 +1,16 @@
-name = "cf-ai-draw"
-main = "worker.js"
 compatibility_date = "2024-01-01"
-
-[site]
-bucket = "/"
 
 [build]
 command = ""
 
-# 开发环境配置
-[env.dev]
-name = "cf-ai-draw-dev"
-workers_dev = true
+[site]
+bucket = "/"
+
+[build.upload]
+format = "modules"
 
 [env.preview]
-name = "cf-ai-draw-preview"
+# Preview 环境的配置会由 Pages 自动处理
 
-# 生产环境配置
 [env.production]
-name = "cf-ai-draw"
+# Production 环境的配置会由 Pages 自动处理
