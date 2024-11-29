@@ -2,11 +2,9 @@
   "name": "cf-ai-draw",
   "version": "1.0.0",
   "description": "AI Drawing Application based on Cloudflare Workers",
-  "main": "worker.js",
   "scripts": {
-    "build": "npm install && echo \"No build step required\"",
-    "dev": "wrangler dev",
-    "deploy": "wrangler deploy"
+    "build": "npm install",
+    "dev": "wrangler pages dev ."
   },
   "dependencies": {
     "@cloudflare/workers-types": "^4.0.0"
