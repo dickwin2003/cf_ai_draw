@@ -1,5 +1,5 @@
 # AI Drawing Application
-
+http://aidraw.pooclouds.uk
 这是一个基于 Cloudflare Workers AI 的在线AI绘画应用。用户可以通过输入文本描述来生成AI艺术作品。
 
 ## 功能特点
