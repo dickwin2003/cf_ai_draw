@@ -42,6 +42,55 @@
 2. 配置好的 Workers 环境
 3. Workers AI 访问权限
 
+## 开发和部署
+
+### 前置条件
+
+1. 安装 Node.js (推荐 v16 或更高版本)
+2. 安装 npm 或 yarn
+3. 注册 Cloudflare 账号并获取 API token
+
+### 安装依赖
+
+```bash
+# 使用 npm
+npm install
+
+# 或使用 yarn
+yarn
+```
+
+### 开发命令
+
+```bash
+# 本地开发
+npm run dev
+# 或
+yarn dev
+
+# 部署到开发环境
+npm run deploy
+# 或
+yarn deploy
+
+# 部署到生产环境
+npm run deploy:production
+# 或
+yarn deploy:production
+```
+
+### 配置说明
+
+1. 首次使用需要配置 Cloudflare 账号：
+```bash
+npx wrangler login
+```
+
+2. 修改 `wrangler.toml` 中的配置：
+- `name`: 项目名称
+- `compatibility_date`: 兼容性日期
+- 环境配置 (dev/production)
+
 ## 开发者
 
 如果你想要进行开发或修改，可以克隆本仓库：
