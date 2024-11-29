@@ -1,4 +1,4 @@
-name = "cf-ai-draw"
+name = "aidraw"
 compatibility_date = "2024-01-01"
 main = "worker.js"
 
