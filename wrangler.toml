@@ -1,16 +1,8 @@
 compatibility_date = "2024-01-01"
+main = "worker.js"
 
 [site]
-bucket = "./"
+bucket = "."
 
 [build]
 command = ""
-
-[build.upload]
-format = "modules"
-
-[env.preview]
-# Preview 环境的配置会由 Pages 自动处理
-
-[env.production]
-# Production 环境的配置会由 Pages 自动处理
